@@ -10,3 +10,15 @@ elif username == "victor" and password == "Vi13tor":
  print("Hey there Victor! Continue winning today!")  
 else:
  print("You do not have access. Go away!")
+
+def endGame():
+  while True:
+    print()
+    x= input(""""You do not have access. Go away!".
+To try again please click Stop on top right page and click Run """)
+    print()
+    continue
+
+
+if __name__ == "__main__":
+  endGame()
